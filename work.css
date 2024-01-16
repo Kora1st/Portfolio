@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+}
+
+.navHome{
+    font-family: oswald;
+    color:aliceblue ;
+    position: fixed;
+    top: 50px;
+    right: 150px;
+    transition: color 1s;
+}
+
+.navHome:hover{
+    color: cornflowerblue;
+}
+
+.myWork1{
+    margin-left: 500px;
+    margin-top: 500px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.myWork1:hover{
+    transform: translateX(15%);
+}
+
+.myWork2{
+    margin-left: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.myWork2:hover{
+    transform: translateX(15%);
+}
+
+.myWork3{
+    margin-left: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.myWork3:hover{
+    transform: translateX(15%);
+}
+
+.myWork4{
+    margin-left: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.myWork4:hover{
+    transform: translateX(15%);
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150px;
+    color: aliceblue;
+}
+
+.subtitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: tomato;
+}
+
+@media (max-width: 768px)  {
+    span{
+        font-size: 70px;
+    }
+
+    .myWork1{
+        margin-left: 50px;
+        margin-top: 125px;
+    }
+
+    .navHome{
+        top: 500px ;
+    }
+
+    .myWork2{
+        margin-left: 50px;
+    }
+
+    .myWork3{
+        margin-left: 50px;
+    }
+
+    .myWork4{
+        margin-left: 50px;
+    }
+
+    .navhome{
+        position: absolute;
+        top: 713px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .myWork1{
+        margin-left: 125px;
+    }
+
+
+    .myWork2{
+        margin-left: 125px;
+    }
+
+    .myWork3{
+        margin-left: 125px;
+    }
+
+    .myWork4{
+        margin-left: 125px;
+    }
+
+    .navhome{
+        position: fixed;
+        top: 50px;
+    }
+}

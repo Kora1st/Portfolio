@@ -1,0 +1,81 @@
+*{
+    background-color: black;
+}
+
+.navHome{
+    font-family: oswald;
+    color:aliceblue ;
+    position: fixed;
+    right: 150px;
+    top: 25px;
+    transition: color 1s;
+}
+
+.navHome:hover{
+    color: cornflowerblue;
+}
+
+.mainText{
+    color: aliceblue;
+    text-align: center;
+    font-family: oswald;
+    font-size: 1100%;
+    margin-top: 10%;
+    margin-left: 35px;
+
+}
+
+.messangers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.telega{
+    width: 150px;
+    margin-left: 1314px;
+    transition: transform 1s;
+}
+
+.telega:hover{
+    transform: translateX(20px);
+}
+
+.whats{
+    width: 150px;
+    margin-left: 3%;
+    transition: transform 1s;
+}
+
+.whats:hover{
+    transform: translateX(20px);
+}
+
+.mail{
+    width: 150px;
+    height: 100px;
+    margin-top: -40px;
+    margin-left: 3%;
+    transition: transform 1s;
+}
+
+.mail:hover{
+    transform: translateX(20px);
+}
+
+@media (max-width: 768px) {
+    .messangers{
+        margin-top: 155px;
+        margin-left: -765px;
+    }
+
+    .navHome{
+        top: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025px) {
+    .messangers{
+        margin-left: -1291px;
+    }
+}

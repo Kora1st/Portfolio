@@ -1,0 +1,90 @@
+*{
+    background-color: black;
+    font-family: oswald;
+}
+
+
+
+.navHome{
+    font-family: oswald;
+    color:aliceblue ;
+    position: fixed;
+    top: 50px;
+    right: 150px;
+    transition: color 1s;
+}
+
+.navHome:hover{
+    color: cornflowerblue;
+}
+
+.herosection2{
+    z-index: 10;
+}
+
+.title{
+    color: aliceblue;
+    margin-top: 325px;
+    text-align: center;
+    font-size: 1000%;
+}
+
+
+.moon{
+    width: 50%;
+    margin-top: -75px;
+    margin-left: 800px;
+    z-index: 0;
+}
+
+.mainText{
+    color: aliceblue;
+    position: absolute;
+    top: 160%;
+    left: 10%;
+    right: 10%;
+    text-align: left;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .title{
+        font-size: 300%;
+        color: aqua;
+    }
+
+    .navHome{
+        position: fixed;
+        top: 50px;
+    }
+
+    .moon{
+        margin-left: 300px ;
+        margin-top: 3px;
+    }
+
+    .mainText{
+        top: 80% ;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .title{
+        font-size: 500%;
+        color: aqua;
+    }
+
+    .navHome{
+        position: fixed;
+        top: 50px;
+    }
+
+    .moon{
+        margin-left: 460px ;
+        margin-top: -55px;
+    }
+
+    .mainText{
+        top: 80% ;
+    }
+}

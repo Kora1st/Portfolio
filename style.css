@@ -1,0 +1,78 @@
+body{
+    background: url('./img/Mountaun.jpg');
+    background-size: cover;
+}
+
+
+.privet{
+    font-family: Oswald;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    text-align: left;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.hello{
+    font-size: 800%;
+    color: aliceblue;
+    transition: transform 1s, color 1s;
+    top: 0px;
+}
+
+.hello:hover{
+    transform: translateX(15%);
+    color: cornflowerblue;
+}
+
+.iam{
+    font-size: 800%;
+    color: crimson;
+    transition: transform 1s, color 1s;
+    position: absolute;
+    top: 200px;
+    display: inline;
+}
+
+.iam:hover{
+    transform: translateX(15%);
+    color: cornflowerblue;
+}
+
+.aleks{
+    font-size: 800%;
+    color: crimson;
+    position: absolute;
+    transition: transform 1s, color 1s;
+    position: absolute;
+    top: 400px;
+}
+
+.aleks:hover{
+    transform: translateX(15%);
+    color: cornflowerblue;
+
+}
+
+
+@media (max-width: 768px) {
+    .privet {
+      position: static;
+      padding: 16px;
+      margin-left: 25px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .privet {
+      position: static;
+      padding: 16px;
+      margin-left: 55px;
+    }
+}
+
